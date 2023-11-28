@@ -1,5 +1,10 @@
-![newbee-logo](https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/newbee-logo.png?x-oss-process=image/resize,h_240,w_480)
+# 运行说明
+1. properties处修改sql库，端口及密码
+2. 测试MySQL连接，本项目采用MySQL
+3. 运行sql文件创建基本数据库
+4. 正常运行
 
+# 以下是原项目介绍
 ![Build Status](https://img.shields.io/badge/build-passing-green.svg)
 ![Version 1.0.0](https://img.shields.io/badge/version-1.0.0-yellow.svg)
 [![License](https://img.shields.io/badge/license-GPL3.0-blue.svg)](https://github.com/newbee-ltd/newbee-mall/blob/master/LICENSE)
