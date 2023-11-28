@@ -1,3 +1,14 @@
+# 新更新
+* 删除显著标识和部分htmlBUG
+* README增加提醒
+# 提醒
+* 打开项目步骤：
+	* 本项目采用MySQL数据库
+  	* 数据库名称和密码修改（如果改过MySQL端口则端口也需要修改 ）
+  	* 运行SQL文件
+  	* 正常运行项目
+* admin和用户密码都采用md5加密，admin和第一个用户的密码反向解密后为123456，可以使用这两个账号登录验证，或自己注册/SQL中添加
+# 以下是原项目介绍
 ![newbee-logo](https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/newbee-logo.png?x-oss-process=image/resize,h_240,w_480)
 
 ![Build Status](https://img.shields.io/badge/build-passing-green.svg)
