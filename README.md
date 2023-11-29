@@ -1,3 +1,14 @@
+# 运行说明
+1. properties处修改sql库，端口及密码
+2. 测试MySQL连接，本项目采用MySQL
+3. 运行sql文件创建基本数据库
+4. 正常运行
+# 运行时
+1. 密码采用md5加密，数据库中默认密码为123456，或者采用md5解密器查看密码
+2. 管理员和用户默认账号及加密后的密码均在sql文件中有写
+
+# 以下是原项目介绍
+
 ![newbee-logo](https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/product/newbee-logo.png?x-oss-process=image/resize,h_240,w_480)
 
 ![Build Status](https://img.shields.io/badge/build-passing-green.svg)
