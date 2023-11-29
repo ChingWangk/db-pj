@@ -6,7 +6,7 @@
  * Copyright (c) 2019-2020 十三 all rights reserved.
  * 版权所有，侵权必究！
  */
-package ltd.newbee.mall.controller.admin;
+package ltd.newbee.mall.controller.shopper;
 
 import ltd.newbee.mall.common.Constants;
 import ltd.newbee.mall.common.NewBeeMallCategoryLevelEnum;
@@ -32,9 +32,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
+
 @Controller
-@RequestMapping("/admin")
-public class NewBeeMallGoodsController {
+@RequestMapping("/shopper")
+public class ShopperMallGoodsController {
 
     @Resource
     private NewBeeMallGoodsService newBeeMallGoodsService;
@@ -44,7 +45,7 @@ public class NewBeeMallGoodsController {
     @GetMapping("/goods")
     public String goodsPage(HttpServletRequest request) {
         request.setAttribute("path", "newbee_mall_goods");
-        return "admin/newbee_mall_goods";
+        return "shopper/newbee_mall_goods";
     }
 
     @GetMapping("/goods/edit")
@@ -62,7 +63,7 @@ public class NewBeeMallGoodsController {
                 request.setAttribute("secondLevelCategories", secondLevelCategories);
                 request.setAttribute("thirdLevelCategories", thirdLevelCategories);
                 request.setAttribute("path", "goods-edit");
-                return "admin/newbee_mall_goods_edit";
+                return "shopper/newbee_mall_goods_edit";
             }
         }
         NewBeeMallException.fail("分类数据不完善");
@@ -120,7 +121,7 @@ public class NewBeeMallGoodsController {
         }
         request.setAttribute("goods", newBeeMallGoods);
         request.setAttribute("path", "goods-edit");
-        return "admin/newbee_mall_goods_edit";
+        return "shopper/newbee_mall_goods_edit";
     }
 
     /**
