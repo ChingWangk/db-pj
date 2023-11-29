@@ -1,3 +1,7 @@
+# 11.29.19.21更新说明
+新增对应商家页面的HTML文件组：shopper，新增对应商家页面的controller文件组：shopper
+由于数据未更改，Service和DAO等层暂无法改动，同时管理未登录时页面跳转的js文件也暂无法更改。
+建议优先修改数据库及相应entity
 # 运行说明
 1. properties处修改sql库，端口及密码
 2. 测试MySQL连接，本项目采用MySQL
